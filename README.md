@@ -36,7 +36,7 @@ LightGBMClassifier whose parameters were
 boosting_type:gbdt,class_weight=None,learning_rate=0.1,min_child_weight=0.001,min_split_gain=0.0,subsample=1.0 and subsample_for_bin=200000**
 
 ## Pipeline comparison
-**Compare the two models and their performance. What are the differences in accuracy? In architecture? <br> If there was a difference, why do you think there was one?
+**Compare the two models and their performance. What are the differences in accuracy? In architecture?If there was a difference, why do you think there was one? <br>
 The performance of both models were more or less similar the hyperDrive optimized the hyper-parameters in a LogisticRegression model to get an accuracy as primary <br>
 metic of 0.906 while the AutoML gave a votingEnsemble which gave model an accuracy of 0.917 while the most contributing model was LightGBMClassifier<br>
 The architectural difference in models were while LogisticRegression was more focused on fitting the data on a sigmoid scale LightGBMClassifier is a gradient boosting framework that uses tree based learning algorithms**
