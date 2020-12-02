@@ -80,7 +80,7 @@ y - has the client subscribed a term deposit? (binary: 'yes', 'no')
 **The classification goal is to predict if the client will subscribe a term deposit (variable y)."**
 <br>
 **After trying Hyperparameter optimization using on Logistic Regression using HyperDrive gave an accuracy of 90.1%
-While when the dataset was fed to a AutoML it predicted a model which used**
+While when the dataset was fed to an AutoML run it predicted a model which used LightGBMClassifier<b>(major)</b> and various other classifiers to create a VotingEnsemble which gave a prediction accuracy of 91.6%**
 
 ## Scikit-learn Pipeline
 
